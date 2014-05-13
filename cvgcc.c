@@ -1,3 +1,12 @@
+/*This a trivial wrapper I made for the gcc complier to accept the headers and libraries of OpenCV without exclusive inclusion
+Complie with:  gcc cvgcc.c -o cvgcc
+Using the cvgcc application you can compile your OpenCV programs from the cmd line:
+i) cvgcc yourProgram.c yourProgram.o (this will generate a obj file of your program)
+ii) cvgcc yourProgram.o yourProgram   (this will generate an executable of your program using the object file)
+iii) cvgcc yourProgram.c yourProgram (this will generate an executable of your program using the .c file)
+These three are the only options I have added but feel free to make any changes.
+This will work for OpenCV version 2.4.9...if you have some other version of openCV installed please change all the library names accordingly in the gcc_console3 variable*/
+
 void concate(char *con,char **str,int size){
 	int i;
 	for(i=0;i<size;i++){
