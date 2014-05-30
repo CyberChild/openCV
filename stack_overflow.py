@@ -4,7 +4,7 @@ import urllib.request
 url = 'http://59.145.203.105/'
 values = {'txtRoll' : '1305024',
           'txtEnroll' : '13139428723',
-          'txhSunmit'  : 'Submit'
+          'txhSubmit'  : 'Submit'
            }
 
 data = urllib.parse.urlencode(values)
