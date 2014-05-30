@@ -1,4 +1,3 @@
-I tried that but the response I get is always of the same page....This is the code that I am using is
 import urllib.parse
 import urllib.request
 
