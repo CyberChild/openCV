@@ -1,4 +1,4 @@
 openCV
 ======
 
-The repo on all my works with OpenCV
+This has nothing to got with openCV....I am just using it as a personal database :P
